@@ -36,7 +36,7 @@ hapusPenumpang = function (nama, penumpang) {
     }
   }
 };
-
+ 
 console.log(tambahPenumpang("hadil", penumpang));
 console.log(tambahPenumpang("hadil", penumpang));
 console.log(tambahPenumpang("asnawi", penumpang));
