@@ -5,12 +5,12 @@ var Orang = {
   hobi: ["ngoding", "mbaca", "mewarnai"],
 
   // Method -> funct pd object
-  sapa: function () {
-    return `Hi, nama saya ${this.nama}`;
+  sapa: function (nama) {
+    return `Hi ${nama}, nama saya ${this.nama}`;
   },
 };
 
 // bisa titik . , bisa kurung siku []
-console.log(Orang.sapa());
+console.log(Orang.sapa("Afif"));
 console.log(Orang[`hobi`][1]);
 console.log(Orang.hobi[1]);
